@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #009A93;
+}
+
+img{
+    height: 600px;
+}
+
+.col{
+    background-color: #009A93;   
+}
+
+.productos{
+    border-right: 5px solid #F0721F;
+}
+
+.carousel-caption{
+    background-image: url(./images/bg2.png);
+}
+
+.info .brand{
+    border-bottom: 5px solid #F0721F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-media .links{
+    background-color: #272727;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 20px;
+    color: #F0721F;
+}
+
+.social-media .links a{
+    text-decoration-line: none;
+    color: #F0721F;
+}
+
+.social-media-container{
+    display: flex;
+}
+
+.social-media-column{
+    margin: 0 5px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+#more-content{
+    font-size: 20px;
+    font-weight: 600;
+}
